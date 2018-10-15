@@ -24,4 +24,7 @@ public abstract class Employee {
         return this.name;
     }
 
+    protected void setSalary(double salary) {
+        this.salary = salary;
+    }
 }
