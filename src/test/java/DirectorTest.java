@@ -16,4 +16,5 @@ public class DirectorTest {
     public void getBudget(){
         assertEquals(30000, director.getBudget(),1);
     }
+    
 }

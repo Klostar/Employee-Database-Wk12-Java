@@ -24,4 +24,5 @@ public class Manager extends Employee {
     public double getBonus() {
        return getSalary() * 0.01;
     }
+
 }

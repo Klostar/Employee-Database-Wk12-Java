@@ -13,4 +13,9 @@ public class Director extends Manager {
     public double getBudget() {
         return this.budget;
     }
+
+
+    public void setBudget(Double budget) {
+        this.budget = budget;
+    }
 }
