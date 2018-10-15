@@ -1,4 +1,4 @@
-import Staff.Employee;
+import Staff.Management.Manager;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -6,11 +6,11 @@ import static org.junit.Assert.assertEquals;
 
 public class ManagerTest {
 
-    Staff.Manager manager;
+    Manager manager;
 
     @Before
     public void before(){
-    manager = new Staff.Manager("Sally Smith",17000.0,"JX123345D","HR");
+    manager = new Manager("Sally Smith",17000.0,"JX123345D","HR");
     }
 
 
@@ -41,5 +41,5 @@ public class ManagerTest {
     public void canGetBonus(){
         assertEquals(170.0, manager.getBonus(),1);
    }
-  
+
 }
