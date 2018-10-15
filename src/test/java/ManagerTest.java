@@ -39,6 +39,7 @@ public class ManagerTest {
    }
    @Test
     public void canGetBonus(){
-        assertEquals(17170, manager.getBonus(),1);
+        assertEquals(170.0, manager.getBonus(),1);
    }
+  
 }
