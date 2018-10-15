@@ -13,4 +13,8 @@ public class Employee {
     public int getSalary() {
         return this.salary;
     }
+
+    public String getNiNumber() {
+        return this.niNumber;
+    }
 }

@@ -18,4 +18,9 @@ public class EmployeeTest {
     public void hasSalary(){
         assertEquals(17000, employee.getSalary());
    }
+
+   @Test
+    public void hasNiNumber(){
+        assertEquals("JX123345D", employee.getNiNumber());
+   }
 }
