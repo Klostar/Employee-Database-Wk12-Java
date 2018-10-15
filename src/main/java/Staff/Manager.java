@@ -18,4 +18,8 @@ public class Manager extends Employee {
     public void raiseSalary(double percentage){
         this.setSalary(this.getSalary() * percentage);
     }
+
+    public double getBonus() {
+       return getSalary() * 0.01;
+    }
 }
