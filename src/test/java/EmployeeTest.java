@@ -11,9 +11,13 @@ public class EmployeeTest {
 
     @Before
     public void before(){
-        employee = new Employee(17000,"JX123345D");
+        employee = new Employee("Sally Smith",17000,"JX123345D");
     }
 
+    @Test
+    public void hasName(){
+        assertEquals("Sally Smith", employee.getName());
+    }
    @Test
     public void hasSalary(){
         assertEquals(17000, employee.getSalary());
@@ -22,5 +26,9 @@ public class EmployeeTest {
    @Test
     public void hasNiNumber(){
         assertEquals("JX123345D", employee.getNiNumber());
+   }
+   @Test
+    public void canRaiseSalary(){
+
    }
 }
