@@ -16,5 +16,21 @@ public class DirectorTest {
     public void getBudget(){
         assertEquals(30000, director.getBudget(),1);
     }
+    @Test
+    public void directorHasName(){
+        assertEquals("Craig McAfee", director.getName());
+    }
+    @Test
+    public void directorHasSalary(){
+        assertEquals(50000, director.getSalary(),1);
+    }
+    @Test
+    public void directorHasNiNjumber(){
+        assertEquals("JS776544E", director.getNiNumber());
+    }
+    @Test
+    public void directorHasDepartment(){
+        assertEquals("CEO", director.getDepartmentName());
+    }
     
 }
