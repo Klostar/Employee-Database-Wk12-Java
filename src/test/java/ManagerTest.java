@@ -27,4 +27,8 @@ public class ManagerTest {
     public void hasNiNumber(){
         assertEquals("JX123345D", manager.getNiNumber());
    }
+   @Test
+    public void getDepartmentName(){
+        assertEquals("HR", manager.getDepartmentName());
+   }
 }

@@ -11,6 +11,7 @@ public class Manager extends Employee {
     }
 
 
-
-
+    public String getDepartmentName() {
+        return this.deptName;
+    }
 }
