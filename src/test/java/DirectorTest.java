@@ -32,5 +32,10 @@ public class DirectorTest {
     public void directorHasDepartment(){
         assertEquals("CEO", director.getDepartmentName());
     }
-    
+
+    @Test
+    public void canPayBonus(){
+        assertEquals(10000.0, director.payBonus(),1);
+    }
+
 }
