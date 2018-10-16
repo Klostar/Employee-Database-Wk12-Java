@@ -44,4 +44,10 @@ public class DirectorTest {
         assertEquals("Timmy Radcliffe", director.getName());
     }
 
+    @Test
+    public void changeBudget(){
+        director.setBudget(40000.0);
+        assertEquals(40000.0, director.getBudget(),1);
+    }
+
 }
