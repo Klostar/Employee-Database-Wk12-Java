@@ -18,6 +18,13 @@ public class ManagerTest {
     public void hasName(){
         assertEquals("Sally Smith", manager.getName());
     }
+
+    @Test
+    public void changeName(){
+        manager.setName("Bob McBob");
+        assertEquals("Bob McBob", manager.getName());
+
+    }
    @Test
    public void hasSalary(){
         assertEquals(17000.0, manager.getSalary(), 1);

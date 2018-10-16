@@ -38,4 +38,10 @@ public class DirectorTest {
         assertEquals(10000.0, director.payBonus(),1);
     }
 
+    @Test
+    public void changeName(){
+        director.setName("Timmy Radcliffe");
+        assertEquals("Timmy Radcliffe", director.getName());
+    }
+
 }

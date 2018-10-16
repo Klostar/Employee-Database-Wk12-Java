@@ -24,6 +24,12 @@ public abstract class Employee {
         return this.name;
     }
 
+    public void setName(String name){
+        if(!name.equals(null)){
+            this.name = name;
+        }
+    }
+
     protected void setSalary(double salary) {
         this.salary = salary;
     }
