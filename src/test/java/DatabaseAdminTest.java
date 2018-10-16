@@ -1,4 +1,4 @@
-import Staff.DatabaseAdmin;
+import Staff.TechStaff.DatabaseAdmin;
 import org.junit.Before;
 import org.junit.Test;
 
